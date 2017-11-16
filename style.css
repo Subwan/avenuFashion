@@ -4,6 +4,7 @@
 
 .bodyOne {
   margin-top: 45px;
+  background-color: #f8f8f8;
 }
 
 .logo {
@@ -35,5 +36,14 @@
   margin-left: 8%;
   border: 0;
   background-color: white;
+}
 
+.sellsMenu a:hover {
+  color: #00c8c8;
+}
+
+.shop {
+  position: absolute;
+  background-color: #737373;
+  color: #454647;
 }
