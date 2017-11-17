@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>AVE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="/home/alexandr/projects/avenuFashion/style.css" rel="stylesheet">
   </head>
 
@@ -23,12 +22,8 @@
                 <span class="glyphicon glyphicon-menu-down"></span>
               </a>
               <ul class="dropdown-menu">
-                <li>
-                  <p>EUR</p>
-                </li>
-                <li>
-                  <p>USD</p>
-                </li>
+                  <li><a href="#">EUR</a></li>
+                  <li><a href="#">USD</a></li>
               </ul>
             </li>
           </ul>
@@ -39,7 +34,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#register">Register</a></li>
             <li><a href="#signIn">Sign In</a></li>
-            <li id="basket" class="dropdown">
+            <li id="basket" class="dropdown basket">
               <a herf="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   <span class="glyphicon glyphicon-shopping-cart"></span>
                   empty
@@ -61,13 +56,13 @@
       <img src="./images/AVE.png" class="AVE">
       <img src="./images/logo.png" class="logo">
       <img src="./images/photo1.png" class="photo1">
-      <button class="btn btn-default shop" type="submit">SHOP MEN'S COLLECTION</button>
+      <button class="btn btn-default shopButton" type="submit">SHOP MEN'S COLLECTION</button>
     </div>
 
     <nav class="sellsMenu navbar navbar-default">
       <div class="nabvar-form">
         <ul class="nav navbar-nav">
-          <li><a class="test" href="#popular">POPULAR</a></li>
+          <li><a href="#popular" class="test">POPULAR</a></li>
           <li><a href="#newArrivals">NEW ARRIVALS</a></li>
           <li><a href="#bestSellers">BEST SELLERS</a></li>
           <li><a href="#specialOffers">SPECIAL OFFERS</a></li>
@@ -83,7 +78,7 @@
 
 
 
-
+  <script type="text/javascript" src="dist/bundle.js"></script>
   </body>
 
 

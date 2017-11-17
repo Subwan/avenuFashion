@@ -2,6 +2,12 @@
   height: 45px;
 }
 
+.basket:hover {
+  background-color: #00c8c8;
+}
+
+
+
 .bodyOne {
   margin-top: 45px;
   background-color: #f8f8f8;
@@ -38,12 +44,21 @@
   background-color: white;
 }
 
-.sellsMenu a:hover {
-  color: #00c8c8;
+a:hover {
+   color: #00c8c8;
 }
 
-.shop {
+.shopButton {
   position: absolute;
+  top: 783px;
+  left: 70%;
+  height: 59px;
+  width: 342px;
   background-color: #737373;
   color: #454647;
+  border-radius: 0px;
+}
+
+.shopButton:hover {
+  background-color: #00c8c8;
 }
