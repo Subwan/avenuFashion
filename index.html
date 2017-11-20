@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>AVE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/home/alexandr/projects/avenuFashion/style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./src/scss/masonry.pkgd.min.js"></script>
   </head>
 
   <body>
@@ -22,8 +23,8 @@
                 <span class="glyphicon glyphicon-menu-down"></span>
               </a>
               <ul class="dropdown-menu">
-                  <li><a href="#">EUR</a></li>
-                  <li><a href="#">USD</a></li>
+                <li><a href="#">EUR</a></li>
+                <li><a href="#">USD</a></li>
               </ul>
             </li>
           </ul>
@@ -52,24 +53,48 @@
       </div>
     </nav>
 
-    <div class="bodyOne">
-      <img src="./images/AVE.png" class="AVE">
-      <img src="./images/logo.png" class="logo">
-      <img src="./images/photo1.png" class="photo1">
-      <button class="btn btn-default shopButton" type="submit">SHOP MEN'S COLLECTION</button>
+    <div class="body-one">
+      <img src="./images/AVE.png" class="body-one__AVE">
+      <img src="./images/logo.png" class="body-one__logo">
+      <img src="./images/photo1.png" class="body-one__photo1">
+      <button class="btn btn-default body-one__shop-button" type="submit">SHOP MEN'S COLLECTION</button>
     </div>
 
-    <nav class="sellsMenu navbar navbar-default">
+    <nav class="sells-menu navbar navbar-default">
       <div class="nabvar-form">
         <ul class="nav navbar-nav">
-          <li><a href="#popular" class="test">POPULAR</a></li>
-          <li><a href="#newArrivals">NEW ARRIVALS</a></li>
-          <li><a href="#bestSellers">BEST SELLERS</a></li>
-          <li><a href="#specialOffers">SPECIAL OFFERS</a></li>
-          <li><a href="#comingSoon">COMING SOON</a></li>
+          <li><a href="#popular" class="sells-menu__link">POPULAR</a></li>
+          <li><a href="#newArrivals" class="sells-menu__link">NEW ARRIVALS</a></li>
+          <li><a href="#bestSellers" class="sells-menu__link">BEST SELLERS</a></li>
+          <li><a href="#specialOffers" class="sells-menu__link">SPECIAL OFFERS</a></li>
+          <li><a href="#comingSoon" class="sells-menu__link">COMING SOON</a></li>
         </ul>
       </div>
     </nav>
+
+
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+      <div class="grid-sizer"></div>
+      <div class="grid-item">
+        <img src="./images/photo-body-1.png">
+      </div>
+      <div class="grid-item ">
+        <img src="./images/photo-body-2.png">
+      </div>
+      <div class="grid-item">
+        <img src="./images/photo-body-3.png">
+      </div>
+      <div class="grid-item">
+        <img src="./images/photo-body-4.png">
+      </div>
+      <div class="grid-item">
+        <img src="./images/photo-body-5.png">
+      </div>
+      <div class="grid-item">
+        <img src="./images/photo-body-6.png">
+      </div>
+    </div>
+
 
     <nav class="navbar navbar-inverse navbar-static-bottom footer">
       <div class="contaiver">
@@ -78,7 +103,7 @@
 
 
 
-  <script type="text/javascript" src="dist/bundle.js"></script>
+    <script type="text/javascript" src="dist/bundle.js"></script>
   </body>
 
 

@@ -2,28 +2,27 @@
   height: 45px;
 }
 
-.basket:hover {
+.basket:hover, .basket:focus {
   background-color: #00c8c8;
 }
 
 
-
-.bodyOne {
+.body-one {
   margin-top: 45px;
   background-color: #f8f8f8;
 }
 
-.logo {
+.body-one__logo {
   position: absolute;
   left: 7%;
   top: 80px;
 }
 
-.photo1 {
+.body-one__photo1 {
   margin-left: 8%;
 }
 
-.AVE {
+.body-one__AVE{
   position: absolute;
   z-index: 100;
   top: 345px;
@@ -33,22 +32,7 @@
   right: 0;
 }
 
-.footer {
-  height: 45px;
-}
-
-.sellsMenu {
-  margin-top: 62px;
-  margin-left: 8%;
-  border: 0;
-  background-color: white;
-}
-
-a:hover {
-   color: #00c8c8;
-}
-
-.shopButton {
+.body-one__shop-button {
   position: absolute;
   top: 783px;
   left: 70%;
@@ -59,6 +43,36 @@ a:hover {
   border-radius: 0px;
 }
 
-.shopButton:hover {
+.body-one__shop-button:hover, .body-one__shop-button:focus {
   background-color: #00c8c8;
+}
+
+.footer {
+  height: 45px;
+}
+
+.sells-menu {
+  margin-top: 62px;
+  margin-left: 8%;
+  border: 0;
+  background-color: white;
+}
+
+.sells-menu__link:focus, .sells-menu__link:hover {
+   color: #00c8c8 !important;
+}
+
+.grid {
+    margin-left: 8%;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+  margin-top: 30px;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
 }
