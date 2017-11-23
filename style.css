@@ -7,44 +7,56 @@
 }
 
 
-.body-one {
+
+
+/*-----------section one---------------*/
+
+.section-one {
   margin-top: 45px;
   background-color: #f8f8f8;
 }
 
-.body-one__logo {
+.section-one__logo {
+  display: flex;
+flex-flow: row wrap;
   position: absolute;
   left: 7%;
   top: 80px;
 }
 
-.body-one__photo1 {
+.section-one__photo1 {
   margin-left: 8%;
+  width: 50%;
+  /*height: 100%;*/
 }
 
-.body-one__AVE{
+.section-one__AVE {
   position: absolute;
+  width: 70%;
   z-index: 100;
-  top: 345px;
+  top: 40%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
 }
 
-.body-one__shop-button {
+.section-one__shop-button {
   position: absolute;
-  top: 783px;
-  left: 70%;
-  height: 59px;
-  width: 342px;
-  background-color: #737373;
+  top: 30%;
+  left: 740px;
+  height: 5%;
+  /*width: 25%;*/
+  background-color: #f8f8f8;
   color: #454647;
+  border: 2px solid #454647;
   border-radius: 0px;
+  /*font-size: 80%;*/
 }
 
-.body-one__shop-button:hover, .body-one__shop-button:focus {
+.section-one__shop-button:hover, .section-one__shop-button:focus {
   background-color: #00c8c8;
+  border-color: #00c8c8;
 }
 
 .footer {

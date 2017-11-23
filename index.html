@@ -13,10 +13,14 @@
     <nav class="header navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerBar" aria-expanded="false" aria-controls="headerBar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-text">Currency:</p>
           <ul class="nav navbar-nav">
-            <li>
-              <p class="navbar-text">Currency:</p>
-            </li>
             <li class="dropdown">
               <a herf="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 GPB:
@@ -29,9 +33,7 @@
             </li>
           </ul>
         </div>
-
-
-        <div class="nabvar-form navbar-right">
+        <div id="headerBar" class="navbar-collapse collapse navbar-right header-bar">
           <ul class="nav navbar-nav">
             <li><a href="#register">Register</a></li>
             <li><a href="#signIn">Sign In</a></li>
@@ -48,16 +50,16 @@
             </li>
           </ul>
         </div>
-
-
       </div>
     </nav>
 
-    <div class="body-one">
-      <img src="./images/AVE.png" class="body-one__AVE">
-      <img src="./images/logo.png" class="body-one__logo">
-      <img src="./images/photo1.png" class="body-one__photo1">
-      <button class="btn btn-default body-one__shop-button" type="submit">SHOP MEN'S COLLECTION</button>
+
+
+    <div class="section-one">
+      <img src="./images/logo.png" class="section-one__logo">
+      <img src="./images/photo1.png" class="section-one__photo1">
+      <img src="./images/AVE.png" class="section-one__AVE">
+      <button class="btn btn-default section-one__shop-button" type="submit">SHOP MEN'S COLLECTION</button>
     </div>
 
     <nav class="sells-menu navbar navbar-default">
