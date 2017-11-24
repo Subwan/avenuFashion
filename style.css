@@ -124,7 +124,8 @@
 .shop-section-two {
   display: flex;
   justify-content: space-between;
-  margin: 3vw 1vw;
+  margin: 4vw 1vw;
+  color: #727272;
 }
 
 .shop-section-two__item {
@@ -155,8 +156,54 @@
   position: absolute;
   width: 7.5vw;
   height: 2.5vw;
-  top: 60%;
-  left: 75%;
+  bottom: 5vw;
+  right: 0.1vw;
   font-size: 0.7vw;
+}
 
+
+
+/*-----------------info---------------*/
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 7vw;
+  color: #838383;
+  font-size: 0.7vw;
+}
+
+.info__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 60vw;
+}
+
+.info__ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 1.7vw;
+}
+
+.info__ul li {
+  margin-top: 0.3vw;
+}
+
+.info__header {
+  font-weight: bold;
+  font-size: 0.7vw;
+}
+
+.info__link {
+  margin-top: 10vw;
+  color: #838383;
+}
+
+.info__link:hover {
+  text-decoration: none;
+  color: #838383;
 }
