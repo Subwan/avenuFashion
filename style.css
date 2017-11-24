@@ -6,6 +6,19 @@
   background-color: #00c8c8;
 }
 
+.button-style {
+  background-color: #f8f8f8;
+  color: #454647;
+  border: 1px solid #454647;
+  border-radius: 0px;
+}
+
+.button-style:hover, .button-style:focus {
+  background-color: #00c8c8;
+  border-color: #00c8c8;
+  color: #f8f8f8
+}
+
 /*-----------section one---------------*/
 
 .section-one {
@@ -44,18 +57,10 @@
   right: 20%;
   height: 3vw;
   width: 20vw;
-  background-color: #f8f8f8;
-  color: #454647;
-  border: 2px solid #454647;
-  border-radius: 0px;
   font-size: 1vw;
   text-align: center;
 }
 
-.section-one__shop-button:hover, .section-one__shop-button:focus {
-  background-color: #00c8c8;
-  border-color: #00c8c8;
-}
 
 /*----------------sells menu---------------*/
 
@@ -80,42 +85,78 @@
   justify-items: center;
 }
 
-.shop-section-one_img {
+.shop-section_img {
   height: 100%;
 }
 
 .shop-section-one__item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  justify-self: center;
 }
 
 .shop-section-one__item-2 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  justify-self: center;
 }
 
 .shop-section-one__item-3 {
   grid-column: 3 / 5;
   grid-row: 1 / 3;
-  justify-self: center;
 }
 
 .shop-section-one__item-4 {
   grid-column: 1 / 3;
   grid-row: 2 / 4;
-  justify-self: center;
 }
 
 .shop-section-one__item-5 {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
-  justify-self: center;
 }
 
 .shop-section-one__item-6 {
   grid-column: 4 / 5;
   grid-row: 3 / 4;
-  justify-self: center;
+}
+
+/*----------shop section two-----------------*/
+
+.shop-section-two {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw 1vw;
+}
+
+.shop-section-two__item {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  height: 20vw;
+  width: 30vw;
+}
+
+.shop-section-two__text {
+  text-align: right;
+  font-size: 0.8vw;
+}
+
+.shop-section-two__person-gender {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 2vw;
+}
+
+.shop-section-two__text-lookbook {
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+
+.shop-section-two__view-button {
+  position: absolute;
+  width: 7.5vw;
+  height: 2.5vw;
+  top: 60%;
+  left: 75%;
+  font-size: 0.7vw;
+
 }
