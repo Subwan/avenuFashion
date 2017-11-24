@@ -8,15 +8,15 @@
 
 .button-style {
   background-color: #f8f8f8;
-  color: #454647;
-  border: 1px solid #454647;
+  color: #737373;
+  border: 1px solid #737373;
   border-radius: 0px;
 }
 
 .button-style:hover, .button-style:focus {
   background-color: #00c8c8;
   border-color: #00c8c8;
-  color: #f8f8f8
+  color: #f8f8f8;
 }
 
 /*-----------section one---------------*/
@@ -60,7 +60,6 @@
   font-size: 1vw;
   text-align: center;
 }
-
 
 /*----------------sells menu---------------*/
 
@@ -161,8 +160,6 @@
   font-size: 0.7vw;
 }
 
-
-
 /*-----------------info---------------*/
 
 .info {
@@ -205,5 +202,71 @@
 
 .info__link:hover {
   text-decoration: none;
-  color: #838383;
+  color: #00c8c8;
+}
+
+/*-------------social---------------*/
+
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 3vw;
+  color: #ffffff;
+}
+
+.social__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 60vw;
+  text-align: center;
+}
+
+.social__item {
+  width: 29vw;
+  height: 13vw;
+}
+
+.social__avard {
+  background-color: #333333;
+}
+
+.social-item__text {
+  padding: 3vw 1vw 3vw 1vw;
+}
+
+.social-item__text h3 {
+  margin: 1vw 0;
+  font-size: 2vw;
+}
+
+.social-item__text_bold {
+  font-weight: bold;
+}
+
+.social__links {
+  background-color: #00c8c8;
+  padding: 5vw 0;
+}
+
+.social__link {
+  text-decoration: none;
+  padding: 1vw;
+}
+
+.social__link:hover {
+  text-decoration: none;
+}
+
+.social__icon {
+  display: inline-block;
+  width: 3vw;
+  height: 3vw;
+  fill: #ffffff;
+  color: #ffffff;
+}
+
+.social__icon:hover {
+  fill: #828282;
 }
