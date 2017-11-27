@@ -1,7 +1,6 @@
 .header {
   height: 3vw;
   font-size: 1vw;
-
 }
 
 .icon__down {
@@ -14,7 +13,6 @@
 .header__bar {
   background-color: #222222;
 }
-
 
 .header__price:hover, .header__price:focus {
   text-decoration: none;
@@ -120,7 +118,7 @@
   width: 30vw;
   display: none;
   flex-flow: column wrap;
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   z-index: 200;
   padding: 2vw;
   font-size: 1vw;
@@ -156,7 +154,7 @@
   font-size: 2vw;
 }
 
-.section-one__link-1:focus + .section-one__sub-menu-1 {
+.section-one__link-1:focus+.section-one__sub-menu-1 {
   display: flex;
 }
 
@@ -168,6 +166,11 @@
   border: 0;
   background-color: white;
   font-size: 1vw;
+}
+
+.sells-menu__link {
+  padding: 0.7vw 1vw !important;
+  line-height: 1vw !important;
 }
 
 .sells-menu__link:focus, .sells-menu__link:hover {
@@ -189,33 +192,91 @@
 }
 
 .shop-section-one__item-1 {
+  position: relative;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
 .shop-section-one__item-2 {
+  position: relative;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
 
 .shop-section-one__item-3 {
+  position: relative;
   grid-column: 3 / 5;
   grid-row: 1 / 3;
 }
 
 .shop-section-one__item-4 {
+  position: relative;
   grid-column: 1 / 3;
   grid-row: 2 / 4;
 }
 
 .shop-section-one__item-5 {
+  position: relative;
   grid-column: 3 / 4;
   grid-row: 3 / 4;
 }
 
 .shop-section-one__item-6 {
+  position: relative;
   grid-column: 4 / 5;
   grid-row: 3 / 4;
+}
+
+.shop-section-one__sub-menu {
+  position: absolute;
+  display: none;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8f8;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  font-size: 0.5vw;
+  z-index: 100;
+  text-align: center;
+  color: #727272;
+}
+
+.shop-section-one__sub-menu-header {
+  font-size: 0.5vw;
+  font-weight: bold;
+}
+
+.shop-section-one__sub-menu-buttons {
+  margin-bottom: 0.5vw;
+}
+
+.shop-section-one__link {
+  width: 1vw;
+  height: 1vw;
+  background-color: #727272;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+}
+
+.shop-section-one__link:focus, .shop-section-one__link:hover {
+  outline: none;
+  background-color: #00c8c8;
+}
+
+.shop-section-one__icon {
+  display: inline-block;
+  width: 0.5vw;
+  height: 0.5vw;
+  fill: #ffffff;
+}
+
+.shop-section-one__item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.shop-section-one__item:hover>.shop-section-one__sub-menu {
+  display: flex;
 }
 
 /*----------shop section two-----------------*/
