@@ -93,14 +93,10 @@
   height: 1vw;
 }
 
-.section-one__menu {
-  /*display: block;*/
-}
-
 .section-one__link {
   text-decoration: none;
   color: #222222;
-  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .section-one__link:hover, .section-one__link:focus {
@@ -112,6 +108,58 @@
   margin-left: 2vw;
 }
 
+.section-one__search-field {
+  background: url("./images/search.png") no-repeat 90%;
+  height: 2vw;
+  padding: 0 10px;
+  border: 1px solid #989898;
+}
+
+.section-one__sub-menu-1 {
+  position: absolute;
+  width: 30vw;
+  display: none;
+  flex-flow: column wrap;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  z-index: 200;
+  padding: 2vw;
+  font-size: 1vw;
+  background: #f8f8f8;
+}
+
+.section-one__sub-menu-1-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.section-one__sub-menu-item-ul {
+  margin-right: 5vw;
+}
+
+.section-one__ul-header {
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.section-one__sub-menu-sale {
+  margin-top: 2vw;
+  background-color: #222222;
+  width: 100%;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 2vw 1vw;
+}
+
+.section-one__sub-menu-sale h3 {
+  margin: 1vw 0;
+  font-size: 2vw;
+}
+
+.section-one__link-1:focus + .section-one__sub-menu-1 {
+  display: flex;
+}
+
 /*----------------sells menu---------------*/
 
 .sells-menu {
@@ -119,6 +167,7 @@
   margin-left: 8%;
   border: 0;
   background-color: white;
+  font-size: 1vw;
 }
 
 .sells-menu__link:focus, .sells-menu__link:hover {
