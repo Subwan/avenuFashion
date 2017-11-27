@@ -227,6 +227,46 @@
   grid-row: 3 / 4;
 }
 
+.shop-section-one__price {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  font-size: 1vw;
+  color: #727272;
+}
+
+.shop-section-one__looks {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  height: 50%
+}
+
+.shop-section-one__info {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 2vw;
+  height: 2vw;
+  text-align: center;
+}
+
+.shop-section-one__info-icon {
+  display: inline-block;
+  width: 2vw;
+  height: 2vw;
+  fill: white;
+}
+
+.shop-section-one__items {
+  visibility: hidden;
+}
+
+.shop-section-one__item:hover>.shop-section-one__items {
+  visibility: visible;
+}
+
+
 .shop-section-one__sub-menu {
   position: absolute;
   display: none;
