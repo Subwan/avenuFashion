@@ -1,5 +1,24 @@
 .header {
-  height: 45px;
+  height: 3vw;
+  font-size: 1vw;
+
+}
+
+.icon__down {
+  display: inline-block;
+  width: 0.7vw;
+  height: 0.7vw;
+  fill: currentColor;
+}
+
+.header__bar {
+  background-color: #222222;
+}
+
+
+.header__price:hover, .header__price:focus {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .basket:hover, .basket:focus {
@@ -27,13 +46,6 @@
   background-color: #f8f8f8;
 }
 
-.section-one__logo {
-  position: absolute;
-  left: 7%;
-  top: 5%;
-  width: 15%;
-}
-
 .section-one__photo1 {
   margin-left: 8%;
   width: 50%;
@@ -59,6 +71,45 @@
   width: 20vw;
   font-size: 1vw;
   text-align: center;
+}
+
+.section-one__header {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 3vw;
+  width: 100vw;
+}
+
+.section-one__navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1vw;
+}
+
+.section-one__logo {
+  height: 1vw;
+}
+
+.section-one__menu {
+  /*display: block;*/
+}
+
+.section-one__link {
+  text-decoration: none;
+  color: #222222;
+  margin-left: 1vw;
+}
+
+.section-one__link:hover, .section-one__link:focus {
+  text-decoration: none;
+  color: #31d1d1;
+}
+
+.section-one__search {
+  margin-left: 2vw;
 }
 
 /*----------------sells menu---------------*/
@@ -271,10 +322,7 @@
   fill: #828282;
 }
 
-
-
 /*----------------footer----------------*/
-
 
 .footer {
   display: flex;
