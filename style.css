@@ -270,3 +270,40 @@
 .social__icon:hover {
   fill: #828282;
 }
+
+
+
+/*----------------footer----------------*/
+
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #333333;
+  color: #999999;
+  font-size: 1vw;
+  margin-top: 3vw;
+}
+
+.footer__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  height: 4vw;
+}
+
+.footer__dev {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_nomargin {
+  margin: 0;
+}
+
+.footer_margin-left {
+  margin-left: 1vw;
+}
