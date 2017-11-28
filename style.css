@@ -398,6 +398,7 @@
 }
 
 .shop-section-two__text {
+  display: block;
   text-align: right;
   font-size: 0.8vw;
 }
@@ -414,12 +415,11 @@
 }
 
 .shop-section-two__view-button {
-  position: absolute;
+  display: block;
   width: 7.5vw;
   height: 2.5vw;
-  bottom: 5vw;
-  right: 0.1vw;
   font-size: 0.7vw;
+  margin-left: 13vw;
 }
 
 /*-----------------info---------------*/
