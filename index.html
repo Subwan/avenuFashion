@@ -53,45 +53,35 @@
     </svg>
 
 
-    <header class="header navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerBar" aria-expanded="false" aria-controls="headerBar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-          </button>
-          <p class="navbar-text">Currency:</p>
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a herf="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                GPB:
-                <svg class="icon icon-chevron-down icon__down"><use xlink:href="#icon-chevron-down"></use></svg>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">EUR</a></li>
-                <li><a href="#">USD</a></li>
-              </ul>
-            </li>
-          </ul>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__currency">
+          <span class="header__currency-text">Currency:</span>
+          <div class="header__dropdown">
+            <a herf="#" class="header__link">
+              <span>GPB:</span>
+              <svg class="icon icon-chevron-down icon__down"><use xlink:href="#icon-chevron-down"></use></svg>
+            </a>
+            <div class="header__sub-menu">
+              <a href="#" class="header__sub-menu-link">EUR</a>
+              <a href="#" class="header__sub-menu-link">USD</a>
+            </div>
+          </div>
         </div>
-        <div id="headerBar" class="navbar-collapse collapse navbar-right header__bar">
-          <ul class="nav navbar-nav">
-            <li><a href="#register">Register</a></li>
-            <li><a href="#signIn">Sign In</a></li>
-            <li id="basket" class="dropdown basket">
-              <a herf="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
-                  empty
-                  <svg class="icon icon-chevron-down icon__down"><use xlink:href="#icon-chevron-down"></use></svg>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="basket">
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="header__bar">
+          <a href="#register" class="header__link">Register</a></li>
+          <a href="#signIn" class="header__link">Sign In</a></li>
+          <div class="header__dropdown">
+            <a herf="#" class="header__link">
+              <span class="glyphicon glyphicon-shopping-cart"></span>
+              empty
+              <svg class="icon icon-chevron-down icon__down"><use xlink:href="#icon-chevron-down"></use></svg>
+            </a>
+          <div class="header__sub-menu">
+            <a href="#" class="header__sub-menu-link">One</a>
+            <a href="#" class="header__sub-menu-link">Two</a>
+          </div>
+          </div>
         </div>
       </div>
     </header>
